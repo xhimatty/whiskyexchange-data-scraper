@@ -1,8 +1,8 @@
 # Thomann UK ST-Style Guitars Dynamic Web Scraper
 
-### The objective was to reliably extract structured ST-style guitar product data despite challenges such as cookie consent overlays, client-side pagination driven by UI interactions rather than predictable URL parameters, and heavy JavaScript rendering.
+The objective was to reliably extract structured ST-style guitar product data despite challenges such as cookie consent overlays, client-side pagination driven by UI interactions rather than predictable URL parameters, and heavy JavaScript rendering.
 
-### I built a Python scraper using Playwright that simulates real browser behavior to extract ST-style guitar listings from Thomann UK.
+I built a Python scraper using Playwright that simulates real browser behavior to extract ST-style guitar listings from Thomann UK.
 
 ## The scraper:
 	•	Automatically handles cookie consent interruptions
