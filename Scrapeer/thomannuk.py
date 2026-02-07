@@ -36,7 +36,7 @@ with sync_playwright() as p:
         page.locator('button.fx-pagination__pages-button').nth(i).click(force=True,timeout=30000, no_wait_after=True)
 
         page.wait_for_selector("div.product", timeout=12000)
-        time.sleep(1)
+        page.wait_for_timeout(1000)
         products = page.locator("div.product").all()
 
         for product in products:
