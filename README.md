@@ -1,6 +1,6 @@
 # WhiskyExchange API Data Pipeline
 
-A Python-based API scraper that extracts whisky product data (name, brand, and price) from The Whisky Exchange search endpoint. Implements requests.Session() for connection reuse, includes custom headers and cookie handling, supports pagination, and exports structured results to CSV using pandas.
+Scrapes whisky product data from The Whisky Exchange search endpoint, capturing product names, brands, and prices. Uses persistent sessions with custom headers and cookie handling, supports pagination, and exports clean, structured data to CSV.
 
 ### Tech
     API Integration
